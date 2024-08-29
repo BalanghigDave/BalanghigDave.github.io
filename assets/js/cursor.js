@@ -2,30 +2,28 @@ const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
 
 const colors = [
-  "#ffb56b",
-  "#fdaf69",
-  "#f89d63",
-  "#f59761",
-  "#ef865e",
-  "#ec805d",
-  "#e36e5c",
-  "#df685c",
-  "#d5585c",
-  "#d1525c",
-  "#c5415d",
-  "#c03b5d",
-  "#b22c5e",
-  "#ac265e",
-  "#9c155f",
-  "#950f5f",
-  "#830060",
-  "#7c0060",
-  "#680060",
-  "#60005f",
-  "#48005f",
-  "#3d005e"
-
-  
+    
+"#add8e6",  // Light Blue
+"#b0e0e6",  // Powder Blue
+"#afeeee",  // Pale Turquoise
+"#87ceeb",  // Sky Blue
+"#87cefa",  // Light Sky Blue
+"#b0c4de",  // Light Steel Blue
+"#d1e7f0",  // Alice Blue
+"#e0ffff",  // Light Cyan
+"#f0f8ff",  // Alice Blue
+"#c6e2ff",  // Very Light Blue
+"#ccffff",  // Light Aqua
+"#99ccff",  // Light Sky Blue
+"#a2cffe",  // Light Cornflower Blue
+"#addfff",  // Lighter Blue
+"#b7c9e2",  // Light Steel Blue 2
+"#cae1ff",  // Light Slate Blue
+"#e0ffff",  // Light Cyan 2
+"#afeeee",  // Pale Turquoise 2
+"#cce7ff",  // Light Blue 2
+"#d3e9f3",  // Very Light Sky Blue
+"#cfe2f3"  // Light Periwinkle Blue
 ];
 
 circles.forEach(function (circle, index) {

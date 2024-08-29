@@ -65,9 +65,11 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 
-  /* cursor: url('../img/Night\ Elf.cur'), default, url('../img/cursor_move.png'), pointer; */
-   cursor: url('../img/Night\ Elf.cur'), default; 
- /* cursor: url('../img/cursor_move.png'), pointer;  */
+  cursor: url('../img/cursor-default.cur') 0 0, default
+}
+
+a, button, .pointer-class { /* Targeting elements that use pointer cursor */
+  cursor: url('../img/pointer.png'), pointer;
 }
 
 a {
@@ -1292,4 +1294,5 @@ section,
   left: 0;
   pointer-events: none;
   z-index: 99999999; /* so that it stays on top of all other elements */
+  background-size: cover;
 }
