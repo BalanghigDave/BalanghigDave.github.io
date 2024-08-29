@@ -69,7 +69,9 @@ body {
 }
 
 a, button, .pointer-class { /* Targeting elements that use pointer cursor */
-  cursor: url('../img/pointer.png'), pointer;
+  cursor: url('../img/pointer.cur'), pointer;
+
+  
 }
 
 a {
