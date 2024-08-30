@@ -65,14 +65,18 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 
-  cursor: url('../img/cursor-default.cur') 0 0, default
+  cursor: url('../img/cursor/pointer.png') 0 0, default
 }
 
 a, button, .pointer-class { /* Targeting elements that use pointer cursor */
-  cursor: url('../img/pointer.cur'), pointer;
+  cursor: url('../img/cursor/hand.png')0 0, pointer;
 
   
 }
+/* !! not working need to fix */
+/* .text cursor {
+  cursor: url('../img/cursor/text.cur') 0 0, text;
+} */
 
 a {
   color: var(--accent-color);
