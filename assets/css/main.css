@@ -77,14 +77,14 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 
-  cursor: url('../img/cursor/pointer.png') default;
+  cursor: url('/assets/img/cursor/default-cursor.png')0 0, default;
 }
 
 a,
 button,
-.pointer-class {
+.pointer-class{
   /* Targeting elements that use pointer cursor */
-  cursor: url('../img/cursor/hand.png')0 0, pointer;
+  cursor: url(/assets/img/cursor/hand.png)0 0, pointer;
   
 
 
